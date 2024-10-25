@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock in HTML,CSS and js</title>
+    <link  rel="stylesheet" href="home.css"/>
+    <scipt src="clock.js"></scipt>
+    <style>
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+
+}
+body{
+    font-family:'poppins',sans-serif;
+    background:rgb(238,174,202);
+    background:radial-gradient(circle, rgb(238,174,202,1) 0% ,rgba(148,187,233,1) 100%);
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.container{
+    position: relative;
+}
+.clock{
+    background-color:rgb(49,47,47);
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    color:#fff;
+    border:5px solid #fff;
+    box-shadow:0px 0px 10px rgba(255,255,255,0.7),
+    0px 0px 20px rgba(0,0,0,0.7);
+    font-size:26px;
+    font-weight:bold;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+}
+.clock span{
+    transform:rotate(calc(-30deg * var(--i)));
+    display:inline-block;
+    list-style:none;
+    position:absolute;
+    text-align:center;
+    transform:rotate(calc(30deg * var(--i)));
+    inset:10px;
+}
+.clock span b{
+    transform:rotate(calc(-30deg * var(--i)));
+    display:inline-block;
+    font-size: 30px;
+}
+.clock::before{
+    content: '';
+    width:10px;
+    height:10px;
+    background-color:#fff;
+    border-radius:50%;
+    position:absolute
+}
+
+.needle{
+    position: absolute;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.needle i{
+    width:4px;
+    height:var(--h);
+    background-color:var(--clr);
+    position:absolute;
+    border-radius:8px;
+
+}
+
+/*
+
+let hr = document.getElementById('hour');
+        let min = document.getElementById('min');
+        let sec = document.getElementById('sec');
+        
+        function displayTime(){
+            let date = new Date();
+
+            let hh = date.getHours();
+            let mm = date.getMinutes();
+            let ss = date.getSeconds();
+
+            let hRotation = 30*hh + mm/2;
+            let mRotation = 6*mm;
+            let sRotation = 6*ss;
+
+            hr.style.transform = `rotatez${hRotation}deg)`;
+            min.style.transform = `rotatez(${mRotation}deg)`;
+            sec.style.transform = `rotatez(${sRotation}deg)`;
+        }
+
+        setInterval(displayTime, 1000);
+*/
+    </style>
+
+
+
+</head>
+<body>
+
+        
+    
+    <!--html-->
+<div class="container">
+
+
+    <header class="header">
+        <a href="Home-page.html" class="logo">
+         <span>Jaseem's</span>Portfolio
+        </a>
+     <nav class="navbar">
+       <a href="Home-page.html" class="active">Home</a>
+       <a href="About.html">About</a>
+       <a href="Services.html">Services</a>
+       <a href="Projects.html">Projects</a>
+       <a href="Contact.html"  >Contact</a>
+       <a href="Footer.html">Footer</a>
+     </nav>
+ </header>
+
+
+    <div class="clock">
+
+        
+      <div class="needle" id="hr" style="--clr:#ff3d58;  --h:90px;"><i></i></div>
+      <div class="needle" id="min" style="--clr:#00a6ff; --h:80px;"><i></i></div>
+      <div class="needle" id="sec" style="--clr:#ffffff; --h:30px;"><i></i></div>
+
+      <span style="--i:1;"><b>1</b></span>
+      <span style="--i:2;"><b>2</b></span>
+      <span style="--i:3;"><b>3</b></span>
+      <span style="--i:4;"><b>4</b></span>
+      <span style="--i:5;"><b>5</b></span>
+      <span style="--i:6;"><b>6</b></span>
+      <span style="--i:7;"><b>7</b></span>
+      <span style="--i:8;"><b>8</b></span>
+      <span style="--i:9;"><b>9</b></span>
+      <span style="--i:10;"><b>10</b></span>
+      <span style="--i:11;"><b>11</b></span>
+      <span style="--i:12;"><b>12</b></span>
+    </div>
+</div>
+
+
+    <script>
+        
+
+
+        var hor = 0;
+        var mon = 0;
+        var soc = 0;
+        var d = new date();
+
+        setInterval(
+            function(){
+                d = new date();
+                hor = d.getHour() * 30;
+                mon = d.getMinutes() * 6;
+                soc = d.getSecond() * 6 ;
+                document.getElementById('hr').style.transform = "rotate(" + hour + "deg)"
+                 document.getElementById('min').style.transform = "rotate(" + minute + "deg)"
+                  document.getElementById('sec').style.transform = "rotate(" + second + "deg)"
+
+            }, 1000
+        );
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="home.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+        
+    <header class="header">
+        <a href="Home-page.html" class="logo">
+         <span>Jaseem's</span>Portfolio
+        </a>
+     <nav class="navbar">
+       <a href="Home-page.html" class="active">Home</a>
+       <a href="About.html">About</a>
+       <a href="Services.html">Services</a>
+       <a href="Projects.html">Projects</a>
+       <a href="Contact.html"  >Contact</a>
+       <a href="Footer.html">Footer</a>
+     </nav>
+ </header>
+
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form class="contact-form "  action="https://api.web3forms.com/submit" method="POST">
+            <div class="input-group">
+                <input type="hidden" name="access_key" value="dc63f3c7-c286-4106-bbf0-4def7823f363">
+                <div class="input-box">
+                    <input class="name" type="text" id="name" name="name" placeholder="Full name">
+                    <input class="email" type="email"  id="email" name="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input class="num" type="number" id="phone" name="phone" placeholder="Phone No">
+                    <input class="sub" type="text" id="subject" name="subject" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea class="msg" name="text" id="text" cols="30" rows="10" placeholder="Your massage"></textarea>
+                <button type="submit" value="send" class="btn">send</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
