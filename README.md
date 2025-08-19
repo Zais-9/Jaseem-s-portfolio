@@ -11,7 +11,7 @@ Responsive personal portfolio
 </head>
 
 
-
+<style>
   /* Basic styling to reset margins and paddings */
   *{
     margin:0;
@@ -452,6 +452,7 @@ resize:none;
 .number:hover{
     color:var(--bg-color);
 }
+</style>
     
 
 
