@@ -773,10 +773,5 @@ resize:none;
 
 
 <script src="project.js"></script>
-
-
-
-
-
 </body>
 </html>
