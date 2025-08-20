@@ -951,6 +951,69 @@ resize:none;
 
 
 
+
+
+
+
+<header class="header">
+        <a href="Home-page.html" class="logo">
+         <span>Jaseem's</span>Portfolio
+        </a>
+     <nav class="navbar">
+       <a href="Home-page.html" class="active">Home</a>
+       <a href="About.html">About</a>
+       <a href="Services.html">Services</a>
+       <a href="Projects.html">Projects</a>
+       <a href="Contact.html"  >Contact</a>
+       <a href="Footer.html">Footer</a>
+     </nav>
+ </header>
+ <br><br><br><br>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://github.com/Zais-9">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100090462123865&mibextid=ZbWKwL">
+                <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/md-jaseem-99ba482a9?utm_source=share&utm_campaign
+                    =share_via&utm_content=profile&utm_medium=android_app">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+        </div>
+
+             <nav class="navbar" class="list">
+                <ul class="list">
+              <li><a href="Home-page.html">FAQ</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="Projects.html">Projects</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+            </ul>
+             </nav>
+
+        <p class="copyright">
+            mdjaseema40@gmail.com | All Rights Reserved-2024 <br>
+            <a href="6289172829" class="number" phone>6289172829</a>
+        </p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
       
     <header class="header">
         <a href="Home-page.html" class="logo">
