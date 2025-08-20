@@ -622,6 +622,83 @@ resize:none;
                 </div>
             </section>
 
+
+
+
+
+
+                 
+    <header class="header">
+        <a href="Home-page.html" class="logo">
+         <span>Jaseem's</span>Portfolio
+        </a>
+     <nav class="navbar">
+       <a href="Home-page.html" class="active">Home</a>
+       <a href="About.html">About</a>
+       <a href="Services.html">Services</a>
+       <a href="Projects.html">Projects</a>
+       <a href="Contact.html"  >Contact</a>
+       <a href="Footer.html">Footer</a>
+     </nav>
+ </header>
+
+    
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="services-box">
+               <div class="services-info">
+                    <i class="bx bxl-figma"></i>
+
+                    <b><h4>Web Developer</h4></b>
+                    <p><b>Web developers typically specialize in front-end or back-end development, but some are full-stack developers who work on both:</b>
+                        <br><br>
+                        <b>Front-end developers</b><br>
+                        Focus on the user-facing side of the website, such as the visual look, colors, pictures, and layoutsbr.
+                         <br><br>
+                       <b> Back-end developers</b><br>
+                        Focus on making the website functional and secure, such as programming and coding the structure of the website.
+                        <br><br>
+                        <b>Full-stack developers</b><br>
+                        Work on both front-end and back-end development, and may coordinate the duties of other developers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-code"></i>
+
+                    <h4>Programmer</h4>
+                    <p>Programmers write code in a computer language to instruct a computer how to perform a task. They also test the code to ensure it works as intended. Programmers work with other programmers and designers to plan software and applications. 
+                        <br><br>
+                        Programmers write code in a computer language to instruct a computer how to perform a task. They also test the code to ensure it works as intended. Programmers work with other programmers and designers to plan software and applications. 
+                        <br><br>
+                        Programmers need to be tech-savvy, creative, and have strong analytical and problem-solving skills. They also need to be patient and enjoy using logic to solve complex problems. 
+                        <br><br>
+                        Programmers can learn through a four-year degree program at a university or college with a recognized IT program and math department. They can also complete a boot camp, which is an intensive program that teaches coding languages, testing techniques, and computer security principles. 
+                      
+                    </p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-code-curly"></i>
+
+                    <h4><b>Web Designer</b></h4>
+                    <p><b>responsible for creating the design and layout of a website or web pages.</b>
+                        <br><br>
+                        Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript. Typically, dedicated web developers translate the designs to code.
+                        <br><br>
+                        Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <script src="project.js"></script>
 
 
